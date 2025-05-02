@@ -1,0 +1,267 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  margin-top: 15px;
+}
+.hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+  padding-left: 43px;
+  padding-bottom: 20px;
+  background-color: #f4f4f4;
+}
+.hero__content {
+  max-width: 575px;
+}
+.hero__content-title {
+  font-weight: 500;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+.hero__content-heading {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+.hero__content-heading-span {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #46a358;
+}
+.hero__content-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  padding-bottom: 44px;
+  color: #727272;
+}
+.hero__content-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #fff;
+  background: #46a358;
+  border-radius: 6px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-left: 26px;
+  padding-right: 27px;
+}
+.hero__inner-img {
+  width: 515px;
+} */
+/* Barcha elementlarni boshqarish uchun asosiy sozlamalar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  margin-top: 15px;
+}
+
+.hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+  padding-left: 43px;
+  padding-bottom: 20px;
+  background-color: #f4f4f4;
+}
+
+.hero__content {
+  max-width: 575px;
+}
+
+.hero__content-title {
+  font-weight: 500;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+
+.hero__content-heading {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+
+.hero__content-heading-span {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #46a358;
+}
+
+.hero__content-text {
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 44px;
+  color: #727272;
+}
+
+.hero__content-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #fff;
+  background: #46a358;
+  border-radius: 6px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-left: 26px;
+  padding-right: 27px;
+}
+
+.hero__inner-img {
+  width: 515px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero__inner {
+    padding-left: 20px;
+    padding-top: 30px;
+    gap: 20px;
+  }
+
+  .hero__content {
+    max-width: 500px;
+  }
+
+  .hero__inner-img {
+    width: 400px;
+  }
+
+  .hero__content-heading,
+  .hero__content-heading-span {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__inner {
+    gap: 15px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .hero__inner-img {
+    width: 300px;
+  }
+
+  .hero__content-heading,
+  .hero__content-heading-span {
+    font-size: 40px;
+  }
+
+  .hero__content-text {
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero__content {
+    padding: 0 10px;
+  }
+  .hero__in .hero__inner-img {
+    width: 250px;
+  }
+
+  .hero__content-heading,
+  .hero__content-heading-span {
+    font-size: 30px;
+  }
+
+  .hero__content-text {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .hero__content-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero__inner-img {
+    width: 200px;
+  }
+
+  .hero__content-heading,
+  .hero__content-heading-span {
+    font-size: 24px;
+  }
+
+  .hero__content-text {
+    font-size: 8px;
+  }
+
+  .hero__content-btn {
+    font-size: 12px;
+    padding: 6px 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero__inner-img {
+    width: 150px;
+  }
+
+  .hero__content-heading,
+  .hero__content-heading-span {
+    font-size: 20px;
+  }
+
+  .hero__content-text {
+    font-size: 6px;
+  }
+
+  .hero__content-btn {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}

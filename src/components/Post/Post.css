@@ -1,0 +1,162 @@
+/* .post__inner-heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 53%;
+  text-align: center;
+  color: #3d3d3d;
+}
+.post__inner-text {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-align: center;
+  color: #727272;
+}
+.post__inner-list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+  gap: 44px;
+}
+.post__inner-item-img {
+  width: 268px;
+  height: 195px;
+}
+.post__inner-item__content {
+  padding-top: 9px;
+  padding-left: 15px;
+  padding-right: 11px;
+  padding-bottom: 12px;
+  max-width: 242px;
+}
+.post__inner-item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  color: #46a358;
+}
+.post__inner-item-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #3d3d3d;
+  margin-top: 5px;
+}
+.post__inner-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #727272;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.post__inner-item-btn {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.post__inner-item-btn-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  color: #3d3d3d;
+}
+.post__inner-btn-img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+} */
+.post__inner-heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 53%;
+  text-align: center;
+  color: #3d3d3d;
+}
+.post__inner-text {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-align: center;
+  color: #727272;
+}
+.post__inner-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Boshlang'ich holat: 4 ta element */
+  gap: 44px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.post__inner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.post__inner-item-img {
+  width: 100%;
+  height: auto;
+}
+
+.post__inner-item__content {
+  padding-top: 9px;
+  padding-left: 15px;
+  padding-right: 11px;
+  padding-bottom: 12px;
+  max-width: 100%;
+}
+.post__inner-item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  color: #46a358;
+}
+.post__inner-item-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #3d3d3d;
+  margin-top: 5px;
+}
+.post__inner-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #727272;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.post__inner-item-btn {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.post__inner-item-btn-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  color: #3d3d3d;
+}
+.post__inner-btn-img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+@media (max-width: 1024px) {
+  .post__inner-list {
+    grid-template-columns: repeat(2, 1fr); /* O'rtacha ekranda: 2 ta element */
+    gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .post__inner-list {
+    grid-template-columns: 1fr; /* Kichik ekranda: har bir element to'liq kenglik */
+    gap: 20px;
+  }
+}

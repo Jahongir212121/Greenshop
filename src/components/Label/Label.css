@@ -1,0 +1,32 @@
+.check__inner-form-label {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #3d3d3d;
+}
+.check__inner-form-span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 68%;
+  color: #f03800;
+}
+.check__inner-form-input {
+  padding-top: 12px;
+  padding-left: 13px;
+  margin-top: 10px;
+  padding-bottom: 13px;
+  width: 330px;
+  height: 40px;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 107%;
+  color: #a5a5a5;
+}
+.check__inner-form-option {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 107%;
+  color: #a5a5a5;
+}

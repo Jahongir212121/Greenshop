@@ -1,0 +1,12 @@
+.payment__inner-main {
+  display: flex;
+  gap: 86px;
+  margin-bottom: 87px;
+}
+@media (max-width: 1140px) {
+  .payment__inner-main {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

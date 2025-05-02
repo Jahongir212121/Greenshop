@@ -1,0 +1,142 @@
+.payment-table {
+  max-width: 782px;
+  width: 100%;
+}
+.payment-table__inner-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 11px;
+}
+.payment-table__inner-box-heading1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #3d3d3d;
+}
+.payment-table__inner-box-heading2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  margin-left: 290px;
+  margin-right: 140px;
+  color: #3d3d3d;
+}
+.payment-table__inner-box-heading3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #3d3d3d;
+  margin-right: 60px;
+}
+.payment-table__inner-box-heading4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #3d3d3d;
+}
+@media only screen and (max-width: 1200px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 270px;
+    margin-right: 120px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 250px;
+    margin-right: 120px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 150px;
+    margin-right: 80px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 420px;
+    margin-right: 280px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 380px;
+    margin-right: 240px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 350px;
+    margin-right: 190px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 300px;
+    margin-right: 150px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 250px;
+    margin-right: 100px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .payment-table__inner-box-heading2 {
+    margin-left: 190px;
+    margin-right: 60px;
+  }
+  .payment-table__inner-box-heading3 {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .payment-table__inner-box-heading2 {
+    display: none;
+  }
+  .payment-table__inner-box-heading3 {
+    display: none;
+  }
+  .payment-table__inner-box-heading4 {
+    display: none;
+  }
+  .payment__table-item-inner-box-heading {
+    display: none;
+  }
+  .payment__table-item-inner {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .payment-table {
+    max-width: 100%;
+    width: 100%;
+  }
+}

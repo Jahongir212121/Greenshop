@@ -1,0 +1,145 @@
+.categories {
+  width: 100%;
+  background-color: #fbfbfb; /* Orqa fon rangi */
+  color: #3d3d3d; /* Matn rangi */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.categories h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+.categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  list-style: none;
+}
+
+.categories li {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #3d3d3d;
+}
+
+/* Narx diapazoni (Price Range) */
+.price-range {
+  margin: 50px 0;
+}
+
+.price-heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #3d3d3d;
+}
+
+.price-slider {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.slider-input {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background: #e6e6e6; /* Foydalanilmagan diapazon */
+  border-radius: 4px;
+  outline: none;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: all;
+  width: 20px;
+  height: 20px;
+  background-color: #46a358; /* Thumb rangi */
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.slider-input::-moz-range-thumb {
+  pointer-events: all;
+  width: 20px;
+  height: 20px;
+  background-color: #46a358; /* Thumb rangi */
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.price-values {
+  margin-top: 15px;
+  margin-bottom: 16px;
+  color: #46a358; /* Aktiv rang */
+  text-align: left;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+}
+.price-value {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107%;
+  color: #3d3d3d;
+}
+
+/* Filtr tugmasi */
+.filter-btn {
+  background-color: #46a358;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.filter-btn:hover {
+  background-color: #3d3d3d; /* Hover holatida tugma rangi */
+}
+
+/* O'lcham Filtrlari (Size Filter) */
+.size-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 89%;
+  color: #3d3d3d;
+}
+
+.size-filter {
+  margin-left: 12px;
+  margin-top: 50px;
+}
+
+.size-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.size-title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 267%;
+  color: #3d3d3d;
+}
+
+.size-title:hover {
+  color: #46a358; /* Hover holatida matn rangi */
+  cursor: pointer;
+}
