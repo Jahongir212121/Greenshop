@@ -11,9 +11,6 @@ function Footer() {
       <footer className="bg-gray-100 mt-[100px] text-gray-700 p-6">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">
-            <GardenCare />
-            <PlantRenovation />
-            <WateringGarden />
             <Newsletter />
           </div>
         </div>
