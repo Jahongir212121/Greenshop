@@ -1,0 +1,35 @@
+.body-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 992px) {
+    .main-body {
+        grid-template-columns: 1fr;
+    }
+
+    .main-inner {
+        order: 2;
+    }
+
+    .body-main {
+        padding: 15px;
+    }
+}

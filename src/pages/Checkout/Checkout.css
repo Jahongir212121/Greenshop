@@ -1,0 +1,138 @@
+.checkout-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.billing-address,
+.order-summary {
+    background: #fff;
+    padding: 20px;
+}
+
+.checkout-textarea {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    outline: none;
+}
+
+.billing-address {
+    flex: 1;
+    min-width: 55%;
+}
+
+.checkout-title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+}
+.street-adress {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.order-summary {
+    flex: 0.4;
+    min-width: 35%;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+}
+
+.row input,
+.row select,
+textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.order-price {
+    margin-left: auto;
+    font-weight: bold;
+    color: #46A358;
+}
+
+.totals p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 16px;
+    color: #46A358;
+}
+
+.payment-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.place-order-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #46A358;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.place-order-button:hover {
+    background-color: #3c8c4b;
+}
+
+@media (max-width: 768px) {
+    .checkout-content {
+        flex-direction: column;
+    }
+
+    .billing-address,
+    .order-summary {
+        min-width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}

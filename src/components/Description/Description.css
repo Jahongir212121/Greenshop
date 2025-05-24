@@ -1,0 +1,40 @@
+.desc-titles {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+    border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
+}
+
+.desc-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.desc-title:hover {
+    font-weight: 700;
+    cursor: pointer;
+    color: #46a358;
+    letter-spacing: 2px;
+}
+
+.desc-texts {
+    max-width: 1200px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.desc-heading {
+    display: block;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #3d3d3d;
+}

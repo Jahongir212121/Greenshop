@@ -1,0 +1,78 @@
+.plant-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plant-image {
+    position: relative;
+    width: 100%;
+    background-color: #fbfbfb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    width: 270px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hover-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 250%);
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.plant-item:hover .hover-icons {
+    transform: translate(-50%, 150%);
+    opacity: 1;
+}
+
+.icon {
+    background: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+    background-color: #46a358;
+    transform: scale(1.1);
+}
+
+.plant-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin: 10px 0;
+}
+
+.plant-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #46a358;
+}
